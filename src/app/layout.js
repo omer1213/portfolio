@@ -4,7 +4,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import NavBar from './components/navBar/navBar'
 import Footer from './components/footer/footer'
-
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,12 +16,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+    
+      <link rel='icon' href='./favicon.ico'/>
+      </Head>
       <body className={inter.className}>
-      <NavBar />
+        <NavBar />
         {children}
-        <Footer/>
+        <Footer />
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
- 
+
       </body>
     </html>
   )

@@ -7,7 +7,7 @@ function Project() {
         <>
 
             <div className={` bg-[#181818] ${styles.projectHeight} text-gray-300 mt-1`} id='project' >
-                <div className={`md:mx-26 xl:mx-44 flex flex-col md:flex-row md:justify-around border-2 border-gray`}>
+                <div className={`md:mx-26 xl:mx-44 flex flex-col md:flex-row md:justify-around `}>
                         <div className={`w-full md:w-1/2   lg:ml-16 xl:pl-16 text-center ${styles.pHeight} flex flex-col justify-around pt-4 mb-8 pb-20`} data-aos="fade-up">
                             <h1 className=" text-center text-4xl font-bold">Resturant Website</h1>
                             <span className='flex flex-row  mx-8 text-sm mt-4 justify-center pb-11'>
@@ -34,7 +34,7 @@ function Project() {
                 </div>
             </div>
             <div className={` bg-[#181818] ${styles.projectHeight} text-gray-300 mt-1`}  >
-                <div className={`md:mx-26 xl:mx-44 flex flex-col md:flex-row md:justify-around border-2 border-gray`}>
+                <div className={`md:mx-26 xl:mx-44 flex flex-col md:flex-row md:justify-around `}>
                     <div className={`w-full md:w-1/2   lg:ml-16 xl:pl-16 text-center ${styles.pHeight} flex flex-col justify-around pt-4 mb-8 pb-20`} data-aos="fade-down">
                         <h1 className=" text-center text-4xl font-bold">Resturant Website</h1>
                         <span className='flex flex-row  mx-8 text-sm mt-4 justify-center pb-11'>
