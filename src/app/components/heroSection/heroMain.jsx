@@ -14,9 +14,10 @@ function HeroMain() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <b>   <h1 className='text-6xl pb-6 md:pb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600'>Hello,Am</h1></b>
+                    <b>   <h1 className='text-6xl pb-6 md:pb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600'>Hello,I&rsquo;m </h1></b>
                     <TypeWitingEffect />
                     <p className='pb-6 md:pb-10'>Software engineering student and MERN stack developer, passionate about transforming innovative ideas into powerful web solutions</p>
+                    
                     {/* <div className='button flex md:flex-row flex-col'>
                         <button className='border-2 border-white rounded-3xl py-3 px-2 w-full lg:w-40 lg:mr-3 md:mb-0 mb-5 bg-gradient-to-r from-purple-300 to-purple-900 '>Hire Me</button>
                         <button className='border-2 border-white rounded-3xl py-3 px-2 w-full lg:w-40'>Download CV</button>

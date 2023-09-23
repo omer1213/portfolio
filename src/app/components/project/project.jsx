@@ -19,7 +19,7 @@ function Project() {
                             <p className='mt-4 max-h-48 w-full text-start px-3'> My Next.js Portfolio is a dynamic website designed
                                 to showcase my skills and projects. Powered by Next.js, it offers a seamless
                                 and responsive user experience. Am not just limited to showcasing my own work;
-                              Am also passionate about designing web experiences for others, tailored to their unique
+                                I&rsquo;m  also passionate about designing web experiences for others, tailored to their unique
                                 preferences and goals. Lets collaborate to bring your vision to life.
                                 <br />
                                 Tech Stack: Next.js, React, CSS3, HTML5
