@@ -18,9 +18,9 @@ function Project() {
                             </span>
                             <p className='mt-4 max-h-48 w-full text-start px-3'> My Next.js Portfolio is a dynamic website designed
                                 to showcase my skills and projects. Powered by Next.js, it offers a seamless
-                                and responsive user experience. I'm not just limited to showcasing my own work;
-                                I'm also passionate about designing web experiences for others, tailored to their unique
-                                preferences and goals. Let's collaborate to bring your vision to life.
+                                and responsive user experience. Am not just limited to showcasing my own work;
+                              Am also passionate about designing web experiences for others, tailored to their unique
+                                preferences and goals. Lets collaborate to bring your vision to life.
                                 <br />
                                 Tech Stack: Next.js, React, CSS3, HTML5
                             </p>
@@ -28,7 +28,7 @@ function Project() {
                 
                     <div className={`${styles.marginImage} w-full  md:w-1/2 m-0 md:ml-1 md:mt-4 md:mb-4 flex justify-center`} data-aos="fade-down">
 
-                        <Image src={'/projPic.png'} width={300} height={300} />
+                        <Image src={'/projPic.png'} width={300} height={300} alt='project pic' />
 
                     </div>
                 </div>
@@ -51,7 +51,7 @@ function Project() {
                     </div>
                     <div className={`${styles.marginImage} w-full  md:w-1/2 m-0 md:ml-1 md:mt-4 md:mb-4 flex justify-center`}data-aos="fade-up">
 
-                        <Image src={'/pripic.png'} width={300} height={300} />
+                        <Image src={'/pripic.png'} width={300} height={300} alt='project pic'/>
 
                     </div>
                 </div>

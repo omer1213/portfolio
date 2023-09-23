@@ -24,7 +24,8 @@ export default function RootLayout({ children }) {
         <NavBar />
         {children}
         <Footer />
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        {/* <script src="https://unpkg.com/aos@next/dist/aos.js"></script> */}
+        <script src="https://unpkg.com/aos@next/dist/aos.js" async></script>
 
       </body>
     </html>
